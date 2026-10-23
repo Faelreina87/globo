@@ -97,3 +97,165 @@ main{margin-left:246px}.topbar{height:70px;border-bottom:1px solid var(--line);d
 .reading-text .script-hint{font-size:max(13px,.55em);letter-spacing:.03em;margin:0 0 1em}
 .reading-text .end-cue{font-size:max(12px,.42em)}
 .reading-text .next-divider{font-size:max(12px,.42em)}
+
+/* =====================================================================
+   ESCALA MAIOR — painel "Espelho do programa" + legibilidade geral
+   (os tamanhos originais eram 5–10px; aqui o mínimo passa a ser ~11px)
+   ===================================================================== */
+
+/* ---- Espelho do programa: base (vale em todos os tamanhos) ---- */
+.rundown .panel-header{padding:24px 22px}
+.rundown .panel-header h2{font-size:19px;letter-spacing:-.4px;font-weight:600}
+.rundown .panel-header p{font-size:13px;margin-top:7px}
+.rundown .count{font-size:13px;padding:6px 9px;border-radius:6px}
+.rundown .script-selector{padding:20px 18px 16px}
+.rundown .script-selector label{font-size:10.5px;letter-spacing:1.2px;margin-bottom:10px}
+.rundown .script-selector select{font-size:14px;padding:12px 12px;border-radius:8px}
+.rundown .block-list{padding:0 12px 18px;min-height:0}
+.rundown .block-item{padding:18px 14px;gap:14px;border-radius:10px;margin-bottom:4px}
+.rundown .block-number{font-size:12px;width:32px;height:34px;border-radius:7px}
+.rundown .block-item strong{font-size:16px;font-weight:550;line-height:1.35}
+.rundown .block-item div>span{font-size:11px;letter-spacing:.4px;gap:8px;margin-top:8px;flex-wrap:wrap;row-gap:6px}
+.rundown .block-item div>span i{width:3px;height:3px}
+.rundown .block-item .tone-mini{font-size:11px;padding:3px 8px;border-radius:5px;letter-spacing:.5px}
+.rundown .block-active{width:7px;height:7px}
+.rundown .rundown-footer{font-size:12px;gap:8px;padding:18px 20px}
+.rundown .rundown-footer .icon{width:16px;height:16px}
+
+/* ---- Desktop (>1250px): colunas mais largas + escala geral ---- */
+@media(min-width:1251px){
+  .console-grid{grid-template-columns:310px minmax(0,1fr) 270px;gap:22px}
+  .rundown .block-item{padding:20px 14px}
+  .rundown .block-list{min-height:520px}
+
+  .content{padding-top:40px}
+  .eyebrow{font-size:11px;margin-bottom:14px}
+  .mini-line{width:22px}
+  h1{font-size:clamp(34px,3vw,52px)}
+  .page-header p{font-size:15px;margin-top:14px}
+  .button{font-size:13px;min-height:44px;padding:11px 16px;border-radius:9px}
+  .badge{font-size:11px;padding:6px 9px}
+  .summary-card{padding:24px 22px;gap:16px}
+  .summary-card small{font-size:10px;letter-spacing:1.3px;margin-bottom:9px}
+  .summary-card strong{font-size:17px}
+  .summary-card p{font-size:12.5px;margin-top:8px}
+  .summary-icon{width:48px;height:48px;border-radius:11px}
+  .summary-card .summary-icon{width:48px;height:48px}
+  .summary-card .summary-icon .icon{width:22px;height:22px}
+  .tiny-tag{font-size:10px}
+
+  .preview-heading{height:30px;margin-bottom:14px}
+  .preview-heading h2{font-size:15px}
+  .preview-heading h2 span{font-size:9.5px}
+  .preview-heading .badge{font-size:10px}
+  .prompter .prompter-bar{font-size:11px;min-height:48px;padding-inline:20px}
+  .prompter-bottom{font-size:10px;padding-inline:20px}
+  .next-bar{font-size:12px;min-height:54px}
+  .next-label{font-size:11px}
+  .next-title{font-size:15px}
+  .transport{padding:18px 20px}
+  .play-control{font-size:13px;padding:12px 16px}
+  .play-control kbd{font-size:10px}
+  .timer{font-size:24px}
+  .timer small{font-size:9px;margin-top:5px}
+  .font-buttons button,.small-control{font-size:12px;height:34px;min-width:34px}
+  .small-control{font-size:11px;min-width:40px}
+  .font-buttons>span,.display-group>span{font-size:11px}
+  .display-group select,.seg button{font-size:12px;height:34px}
+  .keyboard-hint{font-size:11px;margin-top:16px}
+  .keyboard-hint kbd{font-size:10px;padding:3px 6px}
+
+  .tracking-panel h2{font-size:13px}
+  .tracking-panel h3{font-size:16px}
+  .tracking-panel>p{font-size:12px}
+  .tracking-stats>div{font-size:11.5px}
+  .tracking-stats strong{font-size:11.5px}
+  .tracking-panel>.button{font-size:12px;min-height:40px}
+  .manual-note{padding:18px 16px}
+  .manual-note strong{font-size:12.5px}
+  .manual-note p{font-size:11.5px}
+
+  .preflight-title h2{font-size:14px}
+  .preflight-title p{font-size:11px}
+  .preflight-items label{font-size:12px}
+  .honesty-note p{font-size:11px}
+  footer{font-size:11px}
+
+  .sidebar nav button{font-size:13px;padding:14px 14px}
+  .nav-label{font-size:10px}
+  .workspace strong{font-size:12px}
+  .workspace small{font-size:11px}
+  .sidebar-note strong{font-size:13px}
+  .sidebar-note p{font-size:12px}
+  .operator strong{font-size:12px}
+  .operator small{font-size:10px}
+  .topbar{font-size:12px}
+}
+
+@media(min-width:1251px) and (max-width:1449px){
+  .console-grid{grid-template-columns:290px minmax(0,1fr) 250px;gap:18px}
+  .rundown .block-item strong{font-size:15px}
+}
+
+@media(min-width:1450px){
+  .console-grid{grid-template-columns:350px minmax(0,1fr) 290px;gap:24px}
+}
+
+@media(min-width:1650px){
+  .content{padding:48px 56px 28px}
+  .console-grid{grid-template-columns:400px minmax(0,1fr) 320px;gap:28px}
+  .rundown .panel-header h2{font-size:21px}
+  .rundown .block-item{padding:24px 16px}
+  .rundown .block-item strong{font-size:17px}
+  .rundown .block-item div>span{font-size:12px}
+  .rundown .block-item .tone-mini{font-size:12px}
+  .rundown .block-number{width:36px;height:38px;font-size:13px}
+  .rundown .block-list{min-height:600px}
+}
+
+/* ---- Tablet (≤1250px): mantém 2 colunas, espelho maior ---- */
+@media(max-width:1250px){
+  .console-grid{grid-template-columns:260px minmax(0,1fr)}
+  .rundown .block-item strong{font-size:15px}
+  .rundown .block-item div>span,.rundown .block-item .tone-mini{font-size:10.5px}
+  .rundown .block-list{min-height:400px}
+  .summary-card small{font-size:8.5px}
+  .summary-card p{font-size:10.5px}
+  .summary-card strong{font-size:14px}
+  .tracking-stats>div,.tracking-stats strong,.manual-note p,.keyboard-hint{font-size:10.5px}
+  .prompter-bottom{font-size:9px}
+  .timer small{font-size:8px}
+}
+@media(max-width:950px){
+  .console-grid{grid-template-columns:215px minmax(0,1fr);gap:12px}
+  .rundown .panel-header{padding:18px 14px}
+  .rundown .panel-header h2{font-size:16px}
+  .rundown .block-item{padding:14px 9px;gap:9px}
+  .rundown .block-item strong{font-size:14px}
+  .rundown .block-number{width:26px;height:28px;font-size:11px}
+  .rundown .block-item div>span,.rundown .block-item .tone-mini{font-size:10px}
+  .rundown .script-selector{padding:16px 12px 12px}
+}
+
+/* ---- Celular (≤700px): lista horizontal com cartões maiores ---- */
+@media(max-width:700px){
+  .console-grid{grid-template-columns:1fr}
+  .rundown .panel-header{padding:16px 16px}
+  .rundown .panel-header h2{font-size:17px}
+  .rundown .panel-header>div{gap:12px}
+  .rundown .panel-header p{font-size:12px}
+  .rundown .script-selector{padding:14px 16px;gap:12px}
+  .rundown .script-selector label{font-size:9.5px}
+  .rundown .script-selector select{font-size:14px;padding:10px}
+  .rundown .block-list{padding:0 12px 14px;gap:8px;min-height:0}
+  .rundown .block-item{width:230px;padding:14px 12px;gap:10px;margin-bottom:0}
+  .rundown .block-item strong{font-size:15px}
+  .rundown .block-item div>span,.rundown .block-item .tone-mini{font-size:10.5px}
+  .rundown .block-number{width:28px;height:30px;font-size:11px}
+  .rundown .rundown-footer{font-size:11px;padding:14px 16px}
+  .summary-card small{font-size:8px}
+  .summary-card p{font-size:10px}
+  .summary-card strong{font-size:13px}
+  .page-header h1{font-size:32px}
+  .page-header p{font-size:13px}
+}
