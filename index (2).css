@@ -98,6 +98,139 @@ main{margin-left:246px}.topbar{height:70px;border-bottom:1px solid var(--line);d
 .reading-text .end-cue{font-size:max(12px,.42em)}
 .reading-text .next-divider{font-size:max(12px,.42em)}
 
+/* GERADO: escala proporcional de todos os textos fora do teleprompter */
+kbd{font-size:13px}
+.brand strong{font-size:28px}
+.brand strong span{font-size:11.5px}
+.brand small{font-size:11.5px}
+.workspace-avatar{font-size:13px}
+.workspace strong{font-size:13px}
+.workspace small{font-size:11.5px}
+.nav-label{font-size:11.5px}
+.sidebar nav button{font-size:14.5px}
+.sidebar nav button small{font-size:11.5px}
+.sidebar-note strong{font-size:14.5px}
+.sidebar-note p{font-size:13px}
+.sidebar-note>span{font-size:11.5px}
+.local-status{font-size:13px}
+.local-status small{font-size:11.5px}
+.sidebar-bottom>button{font-size:14.5px}
+.sidebar-bottom>button>span{font-size:17px}
+.operator>span,.avatar{font-size:11.5px}
+.operator strong{font-size:13px}
+.operator small{font-size:11.5px}
+.topbar{font-size:13px}
+.version{font-size:11.5px}
+.eyebrow{font-size:11.5px}
+.page-header p{font-size:14.5px}
+.button{font-size:13px}
+.badge{font-size:11.5px}
+.summary-card small{font-size:11.5px}
+.summary-card strong{font-size:17px}
+.summary-card p{font-size:11.5px}
+.tiny-tag{font-size:11.5px}
+h2{font-size:15.5px}
+.panel-header p{font-size:11.5px}
+.count{font-size:11.5px}
+.script-selector label{font-size:11.5px}
+.script-selector select{font-size:13px}
+.block-number{font-size:11.5px}
+.block-item strong{font-size:13px}
+.block-item div>span{font-size:11.5px}
+.rundown-footer{font-size:11.5px}
+.preview-heading h2{font-size:14.5px}
+.preview-heading h2 span{font-size:11.5px}
+.preview-heading .badge{font-size:11.5px}
+.reset-symbol{font-size:23.5px}
+.play-control{font-size:13px}
+.play-control kbd{font-size:11.5px}
+.timer{font-size:19px}
+.timer small{font-size:11.5px}
+.speed-slider label{font-size:11.5px}
+.speed-slider label strong{font-size:11.5px}
+.speed-slider label small{font-size:11.5px}
+.font-buttons>span{font-size:11.5px}
+.font-buttons button,.small-control{font-size:11.5px}
+.small-control{font-size:11.5px}
+.tracking-panel h2{font-size:13px}
+.planned-label{font-size:11.5px}
+.tracking-panel h3{font-size:14.5px}
+.tracking-panel>p{font-size:11.5px}
+.tracking-stats>div{font-size:11.5px}
+.tracking-stats strong{font-size:11.5px}
+.tracking-panel>.button{font-size:11.5px}
+.manual-note strong{font-size:11.5px}
+.manual-note p{font-size:11.5px}
+.preflight-title h2{font-size:14.5px}
+.preflight-title p{font-size:11.5px}
+.check-progress{font-size:11.5px}
+.preflight-items label{font-size:11.5px}
+.honesty-note p{font-size:11.5px}
+.honesty-note>span{font-size:11.5px}
+footer{font-size:11.5px}
+.footer-mark{font-size:17px}
+footer>span:last-child{font-size:11.5px}
+.tab-pill{font-size:14.5px}
+.tab-pill span{font-size:11.5px}
+.search-input{font-size:13px}
+.script-card h2{font-size:22.5px}
+.script-card>p{font-size:14.5px}
+.script-card-meta{font-size:11.5px}
+.delete-button{font-size:11.5px}
+.storage-note{font-size:13px}
+.text-button{font-size:13px}
+.empty-state h2{font-size:19px}
+.empty-state p{font-size:15.5px}
+.document-banner h2{font-size:18px}
+.document-banner p{font-size:14.5px}
+.requirements-head{font-size:11.5px}
+.rf-id{font-size:11.5px}
+.requirement-row h3{font-size:15.5px}
+.requirement-row p{font-size:13px}
+.requirement-row>div>p{font-size:11.5px}
+.document-tabs button{font-size:14.5px}
+.architecture-intro p{font-size:15.5px}
+.architecture-callout strong{font-size:15.5px}
+.architecture-callout p{font-size:14.5px}
+.pipeline-number{font-size:14.5px}
+.pipeline-step h3{font-size:17px}
+.pipeline-step p{font-size:14.5px}
+.contingency-card h3{font-size:18px}
+.contingency-card p{font-size:15.5px}
+.acceptance h2{font-size:19px}
+.acceptance>p{font-size:14.5px}
+.acceptance>div{font-size:14.5px}
+.comparison-row p{font-size:15.5px}
+.comparison-row strong{font-size:15.5px}
+.comparison-head{font-size:11.5px}
+.comparison-head strong{font-size:11.5px}
+.toast{font-size:15.5px}
+.toast>button{font-size:22.5px}
+.save-warning{font-size:15.5px}
+.modal-header h2{font-size:23.5px}
+.modal-header .eyebrow{font-size:11.5px}
+.close-button{font-size:24.5px}
+.editor-body label{font-size:13px}
+.editor-body input,.editor-body select,.editor-body textarea{font-size:15.5px}
+.editor-block-title h3{font-size:17px}
+.editor-block-title>span{font-size:11.5px}
+.editor-block-heading .delete-button{font-size:11.5px}
+.modal-footer>span{font-size:11.5px}
+.settings-body>label{font-size:15.5px}
+.settings-body label>strong{font-size:14.5px}
+.settings-caption,.settings-body>p{font-size:14.5px}
+.presenter-top{font-size:11.5px}
+.presenter-help{font-size:13px}
+@media(min-width:1650px){.tracking-panel h3{font-size:17px}}
+@media(max-width:1250px){.brand strong{font-size:26px}.brand small{font-size:11.5px}.sidebar nav button{font-size:13px}.tracking-panel>.button{font-size:11.5px}.summary-card strong{font-size:15.5px}.summary-card small{font-size:11.5px}.summary-card p{font-size:11.5px}.summary-card>.badge{font-size:11.5px}.summary-card>.tiny-tag{font-size:11.5px}.header-actions .button{font-size:11.5px}}
+@media(max-width:950px){.brand strong{font-size:22.5px}.brand small{font-size:11.5px}.workspace strong{font-size:11.5px}.workspace small{font-size:11.5px}.workspace-avatar{font-size:11.5px}.sidebar nav button{font-size:11.5px}.sidebar-note strong{font-size:13px}.sidebar-note p{font-size:11.5px}.sidebar-note>span{font-size:11.5px}.local-status{font-size:11.5px}.local-status small{font-size:11.5px}.operator strong{font-size:11.5px}.operator small{font-size:11.5px}.page-header p{font-size:13px}.play-control{font-size:11.5px}.timer{font-size:15.5px}.timer small{font-size:11.5px}.block-item strong{font-size:11.5px}.block-item div>span{font-size:11.5px}.panel-header h2{font-size:13px}.panel-header p{font-size:11.5px}.architecture-intro p{font-size:14.5px}.pipeline-step p{font-size:13px}.pipeline-step>.badge{font-size:11.5px}.requirement-row h3{font-size:14.5px}.comparison-row p{font-size:13px}.comparison-row strong{font-size:13px}.document-banner h2{font-size:15.5px}.document-banner p{font-size:13px}.contingency-card h3{font-size:15.5px}.contingency-card p{font-size:14.5px}.honesty-note p{font-size:11.5px}footer>span:last-child{font-size:11.5px}footer{font-size:11.5px}.preflight-items label{font-size:11.5px}}
+@media(max-width:700px){.brand strong{font-size:26px}.brand small{font-size:11.5px}.sidebar nav button{font-size:11.5px}.topbar{font-size:11.5px}.topbar .avatar{font-size:11.5px}.topbar-right .badge{font-size:11.5px}.eyebrow{font-size:11.5px}.header-actions>.button{font-size:13px}.summary-card strong{font-size:14.5px}.summary-card small{font-size:11.5px}.summary-card p{font-size:11.5px}.rundown .panel-header p{font-size:11.5px}.script-selector label{font-size:11.5px}.script-selector select{font-size:11.5px}.block-item strong{font-size:11.5px}.block-item div>span{font-size:11.5px}.block-number{font-size:11.5px}.preview-heading h2{font-size:14.5px}.preview-heading h2 span{font-size:11.5px}.manual-note strong{font-size:11.5px}.manual-note p{font-size:11.5px}.preflight-items label{font-size:11.5px}.honesty-note p{font-size:11.5px}footer{font-size:11.5px}footer>span:last-child{font-size:11.5px}.script-card h2{font-size:23.5px}.script-card-actions>.button{font-size:11.5px}.script-card-meta{font-size:11.5px}.storage-note{font-size:11.5px}.storage-note .text-button{font-size:11.5px}.pipeline-step h3{font-size:17px}.pipeline-step p{font-size:14.5px}.document-tabs button{font-size:13px}.document-banner h2{font-size:17px}.document-banner p{font-size:13px}.acceptance>div{font-size:13px}.comparison-row p{font-size:11.5px}.comparison-row strong{font-size:11.5px}.comparison-head{font-size:11.5px}.comparison-head strong{font-size:11.5px}.requirement-row h3{font-size:14.5px}.requirement-row p{font-size:13px}.requirement-row>div>p{font-size:11.5px}.requirements-head{font-size:11.5px}.modal-header h2{font-size:22.5px}.modal-footer>span{font-size:11.5px}.toast{font-size:13px}.presenter-top{font-size:11.5px}.presenter-top .button{font-size:11.5px}.presenter-help{font-size:11.5px}}
+.display-group>span{font-size:11.5px}
+.display-group select,.settings-body select{font-size:13px}
+.settings-body select{font-size:15.5px}
+.seg button{font-size:11.5px}
+/* FIM GERADO */
+
 /* =====================================================================
    ESCALA MAIOR — painel "Espelho do programa" + legibilidade geral
    (os tamanhos originais eram 5–10px; aqui o mínimo passa a ser ~11px)
@@ -148,11 +281,6 @@ main{margin-left:246px}.topbar{height:70px;border-bottom:1px solid var(--line);d
   .preview-heading h2{font-size:15px}
   .preview-heading h2 span{font-size:9.5px}
   .preview-heading .badge{font-size:10px}
-  .prompter .prompter-bar{font-size:11px;min-height:48px;padding-inline:20px}
-  .prompter-bottom{font-size:10px;padding-inline:20px}
-  .next-bar{font-size:12px;min-height:54px}
-  .next-label{font-size:11px}
-  .next-title{font-size:15px}
   .transport{padding:18px 20px}
   .play-control{font-size:13px;padding:12px 16px}
   .play-control kbd{font-size:10px}
@@ -223,7 +351,6 @@ main{margin-left:246px}.topbar{height:70px;border-bottom:1px solid var(--line);d
   .summary-card p{font-size:10.5px}
   .summary-card strong{font-size:14px}
   .tracking-stats>div,.tracking-stats strong,.manual-note p,.keyboard-hint{font-size:10.5px}
-  .prompter-bottom{font-size:9px}
   .timer small{font-size:8px}
 }
 @media(max-width:950px){
@@ -258,4 +385,23 @@ main{margin-left:246px}.topbar{height:70px;border-bottom:1px solid var(--line);d
   .summary-card strong{font-size:13px}
   .page-header h1{font-size:32px}
   .page-header p{font-size:13px}
+}
+
+/* Menu lateral mais largo para caber as fontes maiores */
+@media(min-width:1251px){
+  .sidebar{width:280px}
+  main{margin-left:280px}
+  .toast{left:calc(50% + 140px)}
+  .brand small{letter-spacing:1px}
+}
+@media(min-width:951px) and (max-width:1250px){
+  .sidebar{width:250px}
+  main{margin-left:250px}
+  .toast{left:calc(50% + 125px)}
+  .brand small{letter-spacing:.6px;font-size:10.5px}
+}
+@media(min-width:701px) and (max-width:950px){
+  .sidebar{width:220px}
+  main{margin-left:220px}
+  .brand small{letter-spacing:.4px;font-size:9.5px}
 }
